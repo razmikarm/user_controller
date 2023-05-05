@@ -12,15 +12,19 @@ class Admin(User):
     @property
     def password(self):
         return self.__password
+    
     @property
     def email(self):
         return self._email
+    
     @property
     def username(self):
         return self._username
+    
     @property
     def full_name(self):
         return self._full_name
+    
     @property
     def role(self):
         return self._role
